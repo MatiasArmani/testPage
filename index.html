@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>blockgen</title>
+
+    <meta property="og:image" content="img/test.png" /> <!-- MODIFICAR -->
+
+    <link class="favicon" rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader"></div>
+
+    <main class="main-page hidden">
+        <!-- header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="logo header__logo">
+                                <div class="logo__container logo__container--going-out">
+                                    <div class="logos__main-container">
+                                    	<a class="logos__blockgen" href="/"> <!-- MODIFICAR -->
+                                    		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 866.16 184.36"><defs><style>.cls-1{fill:url(#Degradado_sin_nombre_28);}</style><linearGradient id="Degradado_sin_nombre_28" y1="92.18" x2="866.16" y2="92.18" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#51358c"/><stop offset="1" stop-color="#7fcff5"/></linearGradient></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="cls-1" d="M49.82,52.73a45.46,45.46,0,0,1,4.27-4.82,32.26,32.26,0,0,1,6.27-4.82,44.6,44.6,0,0,1,8-3.73A28.71,28.71,0,0,1,78,37.82q18.9,0,28.09,13.91t9.18,39.18q0,25.28-9.18,39.18T78,144a28.71,28.71,0,0,1-9.64-1.55,44.58,44.58,0,0,1-8-3.72,32.66,32.66,0,0,1-6.27-4.82,46.47,46.47,0,0,1-4.27-4.82v12.36H0V111.63H8V29.82H0V0H49.82ZM70.91,81.82q0-6.18-2.64-8.91c-1.76-1.82-4.39-2.73-7.91-2.73s-6.15.91-7.91,2.73-2.63,4.79-2.63,8.91V100q0,6.18,2.63,8.91c1.76,1.82,4.4,2.72,7.91,2.72s6.15-.9,7.91-2.72,2.64-4.79,2.64-8.91Z"/><path class="cls-1" d="M120.72,0h49.82V111.63h8v29.82H120.72V111.63h8V29.82h-8Z"/><path class="cls-1" d="M291.63,90.91q0,13.45-3.82,23.36a43.29,43.29,0,0,1-11,16.55,46.09,46.09,0,0,1-17.36,9.91,80.63,80.63,0,0,1-45.46,0,46,46,0,0,1-17.36-9.91,43.4,43.4,0,0,1-11-16.55q-3.82-9.9-3.82-23.36a64.9,64.9,0,0,1,3.82-23.27,43.29,43.29,0,0,1,11-16.64A45.88,45.88,0,0,1,214,41.09a80.63,80.63,0,0,1,45.46,0A46,46,0,0,1,276.81,51a43.18,43.18,0,0,1,11,16.64A64.9,64.9,0,0,1,291.63,90.91Zm-54.91,20.72c3.51,0,6.15-.9,7.91-2.72s2.64-4.79,2.64-8.91V81.82q0-6.18-2.64-8.91t-7.91-2.73c-3.52,0-6.15.91-7.91,2.73s-2.63,4.79-2.63,8.91V100c0,4.12.87,7.09,2.63,8.91S233.2,111.63,236.72,111.63Z"/><path class="cls-1" d="M338.9,97.45q0,6.74,3.73,10.46t12.45,3.72a177.21,177.21,0,0,0,17.82-.9q8.91-.92,17.27-2.37v28.55c-2.3.85-4.79,1.7-7.45,2.54a87.15,87.15,0,0,1-8.91,2.28q-4.9,1-10.82,1.63a126.88,126.88,0,0,1-13.36.64,74.74,74.74,0,0,1-22.91-3.27,45.93,45.93,0,0,1-17.36-9.91,43.29,43.29,0,0,1-11-16.55q-3.83-9.9-3.82-23.36a64.9,64.9,0,0,1,3.82-23.27,43.18,43.18,0,0,1,11-16.64,45.8,45.8,0,0,1,17.36-9.91,74.1,74.1,0,0,1,22.73-3.27,81.09,81.09,0,0,1,13.9,1.09,83.69,83.69,0,0,1,11.37,2.73,69.7,69.7,0,0,1,9.18,3.63q4.1,2,7.36,3.82v36H360V81.82q0-6.18-2.64-8.91c-1.75-1.82-4.39-2.73-7.9-2.73s-6,.91-7.82,2.73-2.73,4.79-2.73,8.91Z"/><path class="cls-1" d="M504.71,70.18,489.26,87.45l17.45,24.18h7.82v29.82H470l-18.73-34.91H446.9v34.91H397.08V111.63h8V29.82h-8V0H446.9V73.82h4.36l22.55-33.46h38.36V70.18Z"/><path class="cls-1" d="M584,40.36H633.8V70.18h-8v64q0,13.45-3.36,23a36.76,36.76,0,0,1-10.09,15.55,41.76,41.76,0,0,1-16.55,8.81,81.8,81.8,0,0,1-22.54,2.82,167.53,167.53,0,0,1-24.36-1.82,107.5,107.5,0,0,1-19.1-4.18V148.54q7.65,1.46,16.64,2.46a163.71,163.71,0,0,0,17.91,1q10.73,0,15.18-3.37T584,136.91v-7.82a42.19,42.19,0,0,1-4.37,4.82,36.86,36.86,0,0,1-6.27,4.82,40.74,40.74,0,0,1-8,3.72A28.93,28.93,0,0,1,555.8,144q-18.9,0-28.09-13.91t-9.18-39.18q0-25.27,9.18-39.18T555.8,37.82a28.93,28.93,0,0,1,9.55,1.54,40.76,40.76,0,0,1,8,3.73,36.35,36.35,0,0,1,6.27,4.82A41.37,41.37,0,0,1,584,52.73ZM562.9,100c0,4.12.87,7.09,2.63,8.91s4.39,2.72,7.91,2.72,6.15-.9,7.91-2.72S584,104.12,584,100V81.82c0-4.12-.89-7.09-2.64-8.91s-4.4-2.73-7.91-2.73-6.15.91-7.91,2.73-2.63,4.79-2.63,8.91Z"/><path class="cls-1" d="M692,37.82q14,0,23.28,4.09a41.22,41.22,0,0,1,14.9,10.63,37.72,37.72,0,0,1,7.91,14.91,64.09,64.09,0,0,1,2.28,16.91V97.45H681.44v1.09q0,6.55,3.72,9.82t13.55,3.27a123.55,123.55,0,0,0,22-1.81,123.72,123.72,0,0,0,16.54-4v29.09a70.57,70.57,0,0,1-7.54,3.18,97.91,97.91,0,0,1-22.09,5.09A133.16,133.16,0,0,1,692,144a74,74,0,0,1-22.72-3.27,46.05,46.05,0,0,1-17.37-9.91,43.4,43.4,0,0,1-11-16.55q-3.81-9.9-3.82-23.36a65.12,65.12,0,0,1,3.82-23.27,43.29,43.29,0,0,1,11-16.64,45.92,45.92,0,0,1,17.37-9.91A74,74,0,0,1,692,37.82Zm0,32.36q-5.26,0-7.91,2.73c-1.76,1.82-2.63,4.79-2.63,8.91v1.09h21.09V81.82q0-6.18-2.64-8.91C698.13,71.09,695.5,70.18,692,70.18Z"/><path class="cls-1" d="M808.34,111.63h8V81.82q0-6.18-2.63-8.91t-7.91-2.73c-3.52,0-6.15.91-7.91,2.73s-2.64,4.79-2.64,8.91v29.81h8v29.82H745.44V111.63h8V70.18h-8V40.36h49.81V52.73c1.46-1.46,3.09-3.06,4.91-4.82a33.45,33.45,0,0,1,6.46-4.82,43.5,43.5,0,0,1,8.45-3.73A35.13,35.13,0,0,1,826,37.82q14.91,0,23.55,10.63t8.63,33.37v29.81h8v29.82H808.34Z"/></g></g></svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6"> <!-- contact -->
+                            <div class="header__hire">
+                                <a class="twitter header__hire-ico" href="https://twitter.com/blockgen_" target="_blank"></a>
+                            </div>
+                            <div class="header__hire">
+                                <a class="instagram header__hire-ico" href="https://www.instagram.com/blockgen_/" target="_blank"></a> 
+                            </div>
+                            <div class="header__hire">
+                                <span class="email header__hire-ico"></span>  <!-- href="mailto:contact@blockgen.dev" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- background -->
+        <div class="noshit-bg">
+            <div class="noshit-bg__intro"></div>
+            <div class="noshit-bg__main"></div>
+        </div>
+
+        <!-- fullpage stuff -->
+        <div id="fullpage">
+            <section aria-label="Introduction" class="noshit-section intro" data-color="#ece8e1" data-envelope-color="#fff" data-envelope-hover="blue" data-favicon="favicon.png">
+                <div class="flex-centered-content">
+                    <div class="container">
+                        <div class="intro__content">
+                            <div class="intro__title">
+                                <div class="intro__title-top">
+                                    Blockchain Development
+                                </div>
+                                <div class="intro__title-bottom">
+                                    We make ideas come true
+                                </div>
+                            </div>
+                            <div class="intro__btn-container">
+                                <button id="btn1" class="btn btn-blue-border next--section">
+                                    <span>start</span>
+                                </button>
+                            </div>
+                            <div>
+                                <svg class="arrows">
+                                    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                                    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                                    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="Stand out" class="noshit-section stand-out" data-color="#ece8e1" data-envelope-color="#000" data-envelope-hover="blue" data-favicon="favicon.png">
+                <div class="flex-centered-content">
+                    <div class="stand-out__container container-right">
+                        <div class="row tablet-flex">
+                            <div class="col-5 col-sm-12 col-xs-12 pulling stand-out__pull-left">
+                                <div class="fade-in">
+                                    <h2 class="stand-out__title state typography__title">What is blockgen?</h2>
+                                </div>
+                                <div class="fade-in">
+                                    <div class="stand-out__text state typography__paragraph">
+                                        At blockgen we create technology, innovate, solve real problems using blockchain. We develop our and your ideas and projects through Smart Contracts, NFTs, Cryptos, dApps, Web3 Websites and more.
+                                    </div>
+                                </div>
+                                <div class="fade-in">
+                                    <div class="btn-container state">
+                                        <button id="btn2" class="stand-out__btn btn btn-black btn-black-grey btn-black-blue-hover next--section">
+                                            next
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7 col-sm-12 col-xs-12 pulling stand-out__pull-right">
+                                <div class="stand-out__scene stand-out__set">
+                                    <div data-depth="0.10" class="stand-out__img">
+                                        <div class="fade-in">
+                                            <img src="/img/test.png" alt="stand-out" class="img-responsive img-set__item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="Emotions" class="noshit-section emotions" data-color="#ffffff" data-envelope-color="#000" data-envelope-hover="blue" data-favicon="favicon.png">
+                <div class="flex-centered-content">
+                    <div class="emotions__container container-left-p">
+                        <div class="row">
+                            <div class="col-7 col-sm-12 col-xs-12 pulling emotions__pull-left">
+                                <div class="emotions__scene emotions__set">
+                                    <div data-depth="0.10" class="emotions__img">
+                                        <div class="fade-in">
+                                            <img src="/img/test.png" alt="emotions" class="img-responsive img-set__item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5 col-sm-12 col-xs-12 pulling emotions__pull-right">
+                                <div class="emotions__info">
+                                    <div class="fade-in">
+                                        <h2 class="emotions__title state typography__title">
+                                            Blockchains
+                                        </h2>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="emotions__text state typography__paragraph">
+                                            <ul>
+                                                <li>
+                                                    Ethereum
+                                                </li>
+                                                <li>
+                                                    Solana
+                                                </li>
+                                                <li>
+                                                    Binance Smart Chain
+                                                </li>
+                                                <li>
+                                                    Polygon
+                                                </li>
+                                                <li>
+                                                    Others
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="btn-container state">
+                                            <button id="btn3" class="emotions__btn btn btn-black btn-black-white btn-black-blue-hover next--section">
+                                                next
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="Problem" class="noshit-section problem" data-color="#ece8e1" data-envelope-color="#000" data-envelope-hover="blue" data-favicon="favicon.png">
+                <div class="flex-centered-content">
+                    <div class="problem__container container-right">
+                        <div class="row tablet-flex">
+                            <div class="col-5 col-sm-12 col-xs-12 pulling problem__pull-left">
+                                <div class="problem__info">
+                                    <div class="fade-in">
+                                        <h2 class="problem__title state typography__title">
+                                          What we can do?
+                                        </h2>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="problem__text state typography__paragraph">
+                                          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bal bla bla bla bla bla bla bla bla bla bla bla bla.
+                                        </div>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="btn-container state">
+                                            <button class="problem__btn btn btn-black btn-black-grey btn-black-blue-hover next--section">
+                                                next
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7 col-sm-12 col-xs-12 pulling problem__pull-right">
+                                <div class="problem__scene problem__set">
+                                    <div data-depth="0.40" class="problem__img">
+                                        <div class="fade-in">
+                                            <img src="/img/test.png" alt="problem" class="img-responsive img-set__item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="Solutions" class="noshit-section solutions" data-color="#000" data-envelope-color="#fff" data-envelope-hover="blue" data-favicon="favicon.png">
+                <div class="flex-centered-content">
+                    <div class="solutions__container container-left-p">
+                        <div class="row">
+                            <div class="col-7 col-sm-12 col-xs-12 pulling solutions__pull-left">
+                                <div class="solution__scene solutions__set">
+                                    <div data-depth="0.20" class="solutions__img">
+                                        <div class="fade-in">
+                                            <img src="/img/test.png" alt="solutions" class="img-responsive img-set__item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5 col-sm-12 col-xs-12 pulling solutions__pull-right">
+                                <div class="solutions__info">
+                                    <h2 style="font-size: 0; margin: 0; visibility: hidden;"></h2>
+                                    <div class="fade-in">
+                                        <div class="solutions__title state typography__paragraph--bold">
+                                            Trabajamos con vos directamente, llevamos la idea a un proyecto final y bien terminado.
+                                        </div>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="btn-container state">
+                                            <button class="solutions__btn btn btn-blue-border next--section extra-padding">
+                                                <span>next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="Team" class="noshit-section team" data-color="#ffffff" data-envelope-color="#000" data-envelope-hover="blue" data-favicon="favicon.png">
+                <div class="flex-centered-content">
+                    <div class="team__container container-right">
+                        <div class="row tablet-flex">
+                            <div class="col-5 col-sm-12 col-xs-12 pulling team__pull-left">
+                                <div class="team__info">
+                                    <div class="fade-in">
+                                        <h2 class="team__title state typography__title">Ejemplos?</h2>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="team__text state typography__paragraph">
+                                            Trabajos previos y ejemplos. Shitcoin, Rotten Eggs, lista de rarezas, webs, etc.
+                                        </div>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="team__btn-container hidden-xs">
+                                            <div class="btn-container state">
+                                                <button class="team__btn btn btn-black btn-black-white btn-black-blue-hover btn-smaller btn-black-blue team__request">
+                                                    Request Portfolio
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="team__btn-container">
+                                            <div class="btn-container2 state">
+                                                <button class="team__btn btn btn-black btn-black-white btn-black-blue-hover btn-smaller next--section">
+                                                    next
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7 col-sm-12 col-xs-12 pulling team__pull-right">
+                                <div class="team__scene team__set">
+                                    <div data-depth="0.10" class="team__img">
+                                        <div class="fade-in">
+                                            <img src="/img/test.png" alt="team" class="img-responsive img-set__item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="What we Do" class="noshit-section dark-stuff" data-color="#000" data-envelope-color="#ece8e1" data-envelope-hover="blue" data-favicon="favicon.png">
+                <div class="flex-centered-content">
+                    <div class="dark-stuff__container container">
+                        <div class="dark-stuff__content">
+                            <div class="fade-in">
+                                <h2 class="dark-stuff__title">What we Do?</h2>
+                            </div>
+                            <div class="fade-in">
+                                <div class="dark-stuff__message hidden-xs">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</div>
+                            </div>
+                            <div class="fade-in">
+                                <div class="dark-stuff__container-ico">
+                                    <div class="dark-stuff__item col-6 col-xs-12">
+                                        <span class="noshit-brand dark-stuff__ico"></span>
+                                        <span class="dark-stuff__ico-title">Smart Contracts</span>
+                                    </div>
+                                    <div class="dark-stuff__item col-6 col-xs-12">
+                                        <span class="noshit-web dark-stuff__ico"></span>
+                                        <span class="dark-stuff__ico-title">NFTs</span>
+                                    </div>
+                                    <div class="dark-stuff__item col-6 col-xs-12">
+                                        <span class="noshit-message dark-stuff__ico"></span>
+                                        <span class="dark-stuff__ico-title">Tokens</span>
+                                    </div>
+                                    <div class="dark-stuff__item col-6 col-xs-12">
+                                        <span class="noshit-dev dark-stuff__ico"></span>
+                                        <span class="dark-stuff__ico-title">Crypto</span>
+                                    </div>
+                                    <div class="dark-stuff__item col-6 col-xs-12">
+
+                                        <span class="noshit-design dark-stuff__ico"></span>
+                                        <span class="dark-stuff__ico-title">dApps</span>
+                                    </div>
+                                    <div class="dark-stuff__item col-6 col-xs-12">
+
+                                        <span class="noshit-collateral dark-stuff__ico"></span>
+                                        <span class="dark-stuff__ico-title">WEB3 Website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fade-in">
+                                <div class="dark-stuff__btn-container">
+                                    <div class="btn-container state">
+                                        <button class="dark-stuff__btn btn btn-black btn-black-blue-hover btn-black-black next--section">
+                                            next
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="What we Can" class="noshit-section wecan" data-color="#ece8e1" data-envelope-color="#000" data-envelope-hover="blue" data-favicon="favicon.png">
+                <div class="flex-centered-content">
+                    <div class="wecan__container container-left-p">
+                        <div class="row">
+                            <div class="col-7 col-sm-12 col-xs-12 pulling wecan__pull-left">
+                                <div class="wecan__scene wecan__set">
+                                    <div data-depth="0.35" class="wecan__img">
+                                        <div class="fade-in">
+                                            <img src="/img/test.png" alt="wecan" class="img-responsive img-set__item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5 col-sm-12 col-xs-12 pulling wecan__pull-right">
+                                <div class="wecan__info">
+                                    <div class="fade-in">
+                                        <h2 class="wecan__title state typography__title">Contact us/Let's work together</h2>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="wecan__text state typography__paragraph">
+                                            Our approach adapts to your needs &mdash; we can step in at any time. We evaluate each project individually.
+                                        </div>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="wecan__text hidden-sm hidden-xs state typography__paragraph">
+                                            Drop us a line to see our portfolio and conditions
+                                        </div>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="btn-container state">
+                                            <button class="problem__btn btn btn-black btn-black-grey btn-black-blue-hover btn-black-blue next--section hidden-lg hidden-md state">
+                                                next
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="fade-in">
+                                        <div class="wecan__form-content hidden-sm hidden-xs">
+                                            <div class="typography__paragraph typography__paragraph-error state input--name"></div>
+                                            <form class="wecan__form" action="https://cryptogang.agency/gang-request.php" method="POST">
+                                                <input type="text" name="nameis" id="HU-name" class="wecan__input state input--name" placeholder="Name*" pattern="([A-z?-?-\s]){2,}" required>
+                                                <input type="text" name="lastname" id="HU-lastname" class="wecan__input state input--lastname" placeholder="Last Name*" pattern="([A-z?-?-\s]){2,}" required>
+                                                <input type="email" name="email" id="HU-email" class="wecan__input state input--email" placeholder="Email*" required>
+                                                <input style="display:none;" type="text" name="honeypot" id="HU-honeypot">
+                                                <div class="btn-container state">
+                                                    <button type="submit" class="wecan__btn btn btn-black btn-black-grey btn-black-blue-hover btn-black-blue">
+                                                        Request Information
+                                                    </button>
+                                                </div>
+                                            </form>
+                                            <div class="btn-container2 state">
+                                                <button class="wecan__btn2 problem__btn btn btn-black btn-black-grey btn-black-blue-hover next--section">
+                                                    our address
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wecan__footer">
+                                    <h3 class="typography__title wecan__footer-main-title">Alguna conclusión/despedida/frase motivacional?</h3>
+                                    <div class="typography__paragraph wecan__footer-main-text">
+                                        Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--noshit-section footer hidden-lg hidden-md hidden-sm-->
+            <section aria-label="Footer" class="noshit-section footer" data-color="#ece8e1">
+                <div class="footer__content-for-all-devices">
+                    <h2 class="hidden-title">Footer</h2>
+                    <!-- mobile form -->
+                    <div class="wecan__form-content wecan__form-content-mobile hidden-lg hidden-md">
+                        <div class="fade-in footer-tablet-form">
+                            <div class="wecan__text  typography__title wecan__text-mobile hidden-lg hidden-md">
+                                Drop us a line to see our portfolio and conditions
+                            </div>
+                            <div class="typography__paragraph typography__paragraph-error state input--name"></div>
+                            <form class="wecan__form" action="https://cryptogang.agency/gang-request.php" method="POST">
+                                <input type="text" name="nameis" id="HU-name" class="wecan__input state input--name" placeholder="Name*" required>
+                                <input type="text" name="lastname" id="HU-lastname" class="wecan__input state input--lastname" placeholder="Last Name*" required>
+                                <input type="email" name="email" id="HU-email" class="wecan__input state input--email" placeholder="Email*" required>
+                                <input style="display:none;" type="text" name="honeypot" id="HU-honeypot">
+                                <button type="submit" class="wecan__btn btn btn-black btn-black-grey btn-black-blue-hover btn-black-blue state">
+                                    Request Information
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer__content fade-in">
+                        <div class="logo footer__logo">
+                            <a href="index.html">
+                                <svg class="img-responsive footer__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 866.16 184.36"><defs><style>.cls-1{fill:url(#Degradado_sin_nombre_28);}</style><linearGradient id="Degradado_sin_nombre_28" y1="92.18" x2="866.16" y2="92.18" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#51358c"/><stop offset="1" stop-color="#7fcff5"/></linearGradient></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="cls-1" d="M49.82,52.73a45.46,45.46,0,0,1,4.27-4.82,32.26,32.26,0,0,1,6.27-4.82,44.6,44.6,0,0,1,8-3.73A28.71,28.71,0,0,1,78,37.82q18.9,0,28.09,13.91t9.18,39.18q0,25.28-9.18,39.18T78,144a28.71,28.71,0,0,1-9.64-1.55,44.58,44.58,0,0,1-8-3.72,32.66,32.66,0,0,1-6.27-4.82,46.47,46.47,0,0,1-4.27-4.82v12.36H0V111.63H8V29.82H0V0H49.82ZM70.91,81.82q0-6.18-2.64-8.91c-1.76-1.82-4.39-2.73-7.91-2.73s-6.15.91-7.91,2.73-2.63,4.79-2.63,8.91V100q0,6.18,2.63,8.91c1.76,1.82,4.4,2.72,7.91,2.72s6.15-.9,7.91-2.72,2.64-4.79,2.64-8.91Z"/><path class="cls-1" d="M120.72,0h49.82V111.63h8v29.82H120.72V111.63h8V29.82h-8Z"/><path class="cls-1" d="M291.63,90.91q0,13.45-3.82,23.36a43.29,43.29,0,0,1-11,16.55,46.09,46.09,0,0,1-17.36,9.91,80.63,80.63,0,0,1-45.46,0,46,46,0,0,1-17.36-9.91,43.4,43.4,0,0,1-11-16.55q-3.82-9.9-3.82-23.36a64.9,64.9,0,0,1,3.82-23.27,43.29,43.29,0,0,1,11-16.64A45.88,45.88,0,0,1,214,41.09a80.63,80.63,0,0,1,45.46,0A46,46,0,0,1,276.81,51a43.18,43.18,0,0,1,11,16.64A64.9,64.9,0,0,1,291.63,90.91Zm-54.91,20.72c3.51,0,6.15-.9,7.91-2.72s2.64-4.79,2.64-8.91V81.82q0-6.18-2.64-8.91t-7.91-2.73c-3.52,0-6.15.91-7.91,2.73s-2.63,4.79-2.63,8.91V100c0,4.12.87,7.09,2.63,8.91S233.2,111.63,236.72,111.63Z"/><path class="cls-1" d="M338.9,97.45q0,6.74,3.73,10.46t12.45,3.72a177.21,177.21,0,0,0,17.82-.9q8.91-.92,17.27-2.37v28.55c-2.3.85-4.79,1.7-7.45,2.54a87.15,87.15,0,0,1-8.91,2.28q-4.9,1-10.82,1.63a126.88,126.88,0,0,1-13.36.64,74.74,74.74,0,0,1-22.91-3.27,45.93,45.93,0,0,1-17.36-9.91,43.29,43.29,0,0,1-11-16.55q-3.83-9.9-3.82-23.36a64.9,64.9,0,0,1,3.82-23.27,43.18,43.18,0,0,1,11-16.64,45.8,45.8,0,0,1,17.36-9.91,74.1,74.1,0,0,1,22.73-3.27,81.09,81.09,0,0,1,13.9,1.09,83.69,83.69,0,0,1,11.37,2.73,69.7,69.7,0,0,1,9.18,3.63q4.1,2,7.36,3.82v36H360V81.82q0-6.18-2.64-8.91c-1.75-1.82-4.39-2.73-7.9-2.73s-6,.91-7.82,2.73-2.73,4.79-2.73,8.91Z"/><path class="cls-1" d="M504.71,70.18,489.26,87.45l17.45,24.18h7.82v29.82H470l-18.73-34.91H446.9v34.91H397.08V111.63h8V29.82h-8V0H446.9V73.82h4.36l22.55-33.46h38.36V70.18Z"/><path class="cls-1" d="M584,40.36H633.8V70.18h-8v64q0,13.45-3.36,23a36.76,36.76,0,0,1-10.09,15.55,41.76,41.76,0,0,1-16.55,8.81,81.8,81.8,0,0,1-22.54,2.82,167.53,167.53,0,0,1-24.36-1.82,107.5,107.5,0,0,1-19.1-4.18V148.54q7.65,1.46,16.64,2.46a163.71,163.71,0,0,0,17.91,1q10.73,0,15.18-3.37T584,136.91v-7.82a42.19,42.19,0,0,1-4.37,4.82,36.86,36.86,0,0,1-6.27,4.82,40.74,40.74,0,0,1-8,3.72A28.93,28.93,0,0,1,555.8,144q-18.9,0-28.09-13.91t-9.18-39.18q0-25.27,9.18-39.18T555.8,37.82a28.93,28.93,0,0,1,9.55,1.54,40.76,40.76,0,0,1,8,3.73,36.35,36.35,0,0,1,6.27,4.82A41.37,41.37,0,0,1,584,52.73ZM562.9,100c0,4.12.87,7.09,2.63,8.91s4.39,2.72,7.91,2.72,6.15-.9,7.91-2.72S584,104.12,584,100V81.82c0-4.12-.89-7.09-2.64-8.91s-4.4-2.73-7.91-2.73-6.15.91-7.91,2.73-2.63,4.79-2.63,8.91Z"/><path class="cls-1" d="M692,37.82q14,0,23.28,4.09a41.22,41.22,0,0,1,14.9,10.63,37.72,37.72,0,0,1,7.91,14.91,64.09,64.09,0,0,1,2.28,16.91V97.45H681.44v1.09q0,6.55,3.72,9.82t13.55,3.27a123.55,123.55,0,0,0,22-1.81,123.72,123.72,0,0,0,16.54-4v29.09a70.57,70.57,0,0,1-7.54,3.18,97.91,97.91,0,0,1-22.09,5.09A133.16,133.16,0,0,1,692,144a74,74,0,0,1-22.72-3.27,46.05,46.05,0,0,1-17.37-9.91,43.4,43.4,0,0,1-11-16.55q-3.81-9.9-3.82-23.36a65.12,65.12,0,0,1,3.82-23.27,43.29,43.29,0,0,1,11-16.64,45.92,45.92,0,0,1,17.37-9.91A74,74,0,0,1,692,37.82Zm0,32.36q-5.26,0-7.91,2.73c-1.76,1.82-2.63,4.79-2.63,8.91v1.09h21.09V81.82q0-6.18-2.64-8.91C698.13,71.09,695.5,70.18,692,70.18Z"/><path class="cls-1" d="M808.34,111.63h8V81.82q0-6.18-2.63-8.91t-7.91-2.73c-3.52,0-6.15.91-7.91,2.73s-2.64,4.79-2.64,8.91v29.81h8v29.82H745.44V111.63h8V70.18h-8V40.36h49.81V52.73c1.46-1.46,3.09-3.06,4.91-4.82a33.45,33.45,0,0,1,6.46-4.82,43.5,43.5,0,0,1,8.45-3.73A35.13,35.13,0,0,1,826,37.82q14.91,0,23.55,10.63t8.63,33.37v29.81h8v29.82H808.34Z"/></g></g></svg>
+                            </a>
+                        </div>
+                        <div class="footer__copy">
+                            &#169; Copyright <span class="footer__curent-year"></span> blockgen
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- mobile rotate mode -->
+        <div class="rotate--mode">
+            <div class="rotate__content">
+                <span class="parker-ico-rotation"></span> Only portrait mode is available, please rotate your device!
+            </div>
+        </div>
+    </main>
+<script type="text/javascript" src="js/app.js"></script></body>
+</html>
